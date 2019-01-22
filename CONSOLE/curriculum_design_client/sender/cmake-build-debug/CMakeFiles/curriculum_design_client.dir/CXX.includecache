@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/liyihang/curriculum_design/curriculum_design_client/sender/Client.h
+string
+-
+iostream
+-
+vector
+-
+fstream
+-
+sstream
+-
+sys/socket.h
+-
+sys/types.h
+-
+netinet/in.h
+-
+poll.h
+-
+arpa/inet.h
+-
+unistd.h
+-
+netdb.h
+-
+
+/Users/liyihang/curriculum_design/curriculum_design_client/sender/main.cpp
+iostream
+-
+Client.h
+/Users/liyihang/curriculum_design/curriculum_design_client/sender/Client.h
+

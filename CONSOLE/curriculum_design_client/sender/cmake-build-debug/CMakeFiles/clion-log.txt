@@ -1,0 +1,6 @@
+"/Users/liyihang/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4505.18/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/liyihang/curriculum_design/curriculum_design_client/sender
+-- Configuring done
+CMake Error: CMake can not determine linker language for target: sender
+CMake Error: Cannot determine link language for target "sender".
+-- Generating done
+-- Build files have been written to: /Users/liyihang/curriculum_design/curriculum_design_client/sender/cmake-build-debug

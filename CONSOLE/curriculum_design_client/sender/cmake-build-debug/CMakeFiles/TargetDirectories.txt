@@ -1,0 +1,3 @@
+/Users/liyihang/curriculum_design/curriculum_design_client/sender/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/liyihang/curriculum_design/curriculum_design_client/sender/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/liyihang/curriculum_design/curriculum_design_client/sender/cmake-build-debug/CMakeFiles/sender.dir

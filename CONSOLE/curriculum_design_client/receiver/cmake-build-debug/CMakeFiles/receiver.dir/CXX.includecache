@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/liyihang/curriculum_design/curriculum_design_client/receiver/main.cpp
+iostream
+-
+string
+-
+fstream
+-
+sys/socket.h
+-
+sys/types.h
+-
+netinet/in.h
+-
+poll.h
+-
+arpa/inet.h
+-
+unistd.h
+-
+netdb.h
+-
+

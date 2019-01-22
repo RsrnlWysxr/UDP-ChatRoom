@@ -1,0 +1,4 @@
+/Users/liyihang/QT_learn/test02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/liyihang/QT_learn/test02/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/liyihang/QT_learn/test02/cmake-build-debug/CMakeFiles/test2.dir
+/Users/liyihang/QT_learn/test02/cmake-build-debug/CMakeFiles/test2_autogen.dir

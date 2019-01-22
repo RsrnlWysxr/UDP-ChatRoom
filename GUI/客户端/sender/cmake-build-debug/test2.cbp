@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="test2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\Cellar\;CMake Files\..\..\..\..\usr\local\Cellar\qt\;CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\;CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\;CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\;CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Core\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/liyihang/QT_learn/test02/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liyihang/QT_learn/test02/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liyihang/QT_learn/test02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liyihang/QT_learn/test02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liyihang/QT_learn/test02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/liyihang/QT_learn/test02/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liyihang/QT_learn/test02/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liyihang/QT_learn/test02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liyihang/QT_learn/test02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liyihang/QT_learn/test02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/liyihang/QT_learn/test02/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liyihang/QT_learn/test02/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liyihang/QT_learn/test02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liyihang/QT_learn/test02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liyihang/QT_learn/test02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test2">
+				<Option output="/Users/liyihang/QT_learn/test02/cmake-build-debug/test2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liyihang/QT_learn/test02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/Users/liyihang/QT_learn/test02/cmake-build-debug/test2_autogen/include"/>
+					<Add directory="/usr/local/Cellar/qt/5.12.0/lib/QtWidgets.framework"/>
+					<Add directory="/usr/local/Cellar/qt/5.12.0/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/usr/local/Cellar/qt/5.12.0/lib/QtGui.framework"/>
+					<Add directory="/usr/local/Cellar/qt/5.12.0/lib/QtGui.framework/Headers"/>
+					<Add directory="/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/usr/local/Cellar/qt/5.12.0/lib/QtCore.framework"/>
+					<Add directory="/usr/local/Cellar/qt/5.12.0/lib/QtCore.framework/Headers"/>
+					<Add directory="/usr/local/Cellar/qt/5.12.0/./mkspecs/macx-clang"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liyihang/QT_learn/test02/cmake-build-debug/Makefile&quot;  VERBOSE=1 test2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liyihang/QT_learn/test02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liyihang/QT_learn/test02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liyihang/QT_learn/test02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test2/fast">
+				<Option output="/Users/liyihang/QT_learn/test02/cmake-build-debug/test2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liyihang/QT_learn/test02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/Users/liyihang/QT_learn/test02/cmake-build-debug/test2_autogen/include"/>
+					<Add directory="/usr/local/Cellar/qt/5.12.0/lib/QtWidgets.framework"/>
+					<Add directory="/usr/local/Cellar/qt/5.12.0/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/usr/local/Cellar/qt/5.12.0/lib/QtGui.framework"/>
+					<Add directory="/usr/local/Cellar/qt/5.12.0/lib/QtGui.framework/Headers"/>
+					<Add directory="/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/usr/local/Cellar/qt/5.12.0/lib/QtCore.framework"/>
+					<Add directory="/usr/local/Cellar/qt/5.12.0/lib/QtCore.framework/Headers"/>
+					<Add directory="/usr/local/Cellar/qt/5.12.0/./mkspecs/macx-clang"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liyihang/QT_learn/test02/cmake-build-debug/Makefile&quot;  VERBOSE=1 test2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liyihang/QT_learn/test02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liyihang/QT_learn/test02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liyihang/QT_learn/test02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test2_autogen">
+				<Option working_dir="/Users/liyihang/QT_learn/test02/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liyihang/QT_learn/test02/cmake-build-debug/Makefile&quot;  VERBOSE=1 test2_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liyihang/QT_learn/test02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liyihang/QT_learn/test02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liyihang/QT_learn/test02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/liyihang/QT_learn/test02/ChatWidget.cpp">
+			<Option target="test2"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/ChatWidget.h">
+			<Option target="test2"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/InputIpWidget.cpp">
+			<Option target="test2"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/InputIpWidget.h">
+			<Option target="test2"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/ListWidget.cpp">
+			<Option target="test2"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/ListWidget.h">
+			<Option target="test2"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/MyWidget.cpp">
+			<Option target="test2"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/MyWidget.h">
+			<Option target="test2"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/RegisterWidget.cpp">
+			<Option target="test2"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/RegisterWidget.h">
+			<Option target="test2"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/client.cpp">
+			<Option target="test2"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/client.h">
+			<Option target="test2"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/cmake-build-debug/test2_autogen/mocs_compilation.cpp">
+			<Option target="test2"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/main.cpp">
+			<Option target="test2"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/liyihang/QT_learn/test02/../../../../usr/local/Cellar/qt/5.12.0/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.12.0\lib\cmake\Qt5Core\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
